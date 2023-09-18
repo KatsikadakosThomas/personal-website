@@ -23,8 +23,8 @@ class Particle{
     this.radius=5
     this.x=this.radius+Math.random() * (this.effect.width - this.radius*2);
     this.y=this.radius+Math.random() * (this.effect.height - this.radius*2);
-    this.vx=Math.random()*1-0.5;
-    this.vy=Math.random()*1-0.5;
+    this.vx=Math.random()*2-1;
+    this.vy=Math.random()*2-1;
   }
 
   draw(context){
@@ -41,8 +41,8 @@ update(){
   
   if(distance < this.effect.mouse.radius){
     const angle= Math.atan2(dy,dx);
-    this.x += Math.cos(angle) * force;
-    this.y += Math.sin(angle) * force;
+    this.x += Math.cos(angle) * 8;
+    this.y += Math.sin(angle) * 8;
   }
 
 
@@ -63,14 +63,14 @@ class Effect{
     this.width=this.canvas.width;
     this.height=this.canvas.height;
     this.particles=[];
-    this.numberOfParticles=620;
+    this.numberOfParticles=120;
     this.createParticles();
 
     this.mouse={
       x:0,
       y:0,
       pressed:false,
-      radius:250
+      radius:150
     }
     window.addEventListener("mousemove",e=>{
 
@@ -104,7 +104,7 @@ class Effect{
   }
 
   connectParticles(context){
-    const maxDistance= 80;
+    const maxDistance= 180;
     for (let a = 0; a < this.particles.length; a++) {
      for(let b=a; b <this.particles.length; b++){
       //get two particles distance on their axis
@@ -153,10 +153,17 @@ animate()
       <canvas id="canvas1" className='bg-[#051c2b] z-0'>
 
       </canvas>
-      <div className={`glass w-[700px] h-[400px] rounded shadow-xl z-30   `}>
+
+      <article className={`glass w-[700px] h-[400px] rounded shadow-xl z-30   `}>
+
+        <figure id="image-wrapper" className='rounded-full relative w-[50px] h-[50px]'>
+        <Image src="/formal-image.png" fill={true}></Image>
+        </figure>
+
+    
 <h1 className='text-3xl font-bold text-center'>Hi, I am Katsikadakos Thomas</h1>
 <p className='text-slate-200 font-medium text-center' >I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
-      </div>
+      </article>
     </main>
   )
 }
