@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { useEffect } from 'react'
+import Socials from '@/components/socials'
+import Typewriter from "@/components/typewriter"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,8 +25,11 @@ class Particle{
     this.radius=5
     this.x=this.radius+Math.random() * (this.effect.width - this.radius*2);
     this.y=this.radius+Math.random() * (this.effect.height - this.radius*2);
-    this.vx=Math.random()*2-1;
-    this.vy=Math.random()*2-1;
+    this.vx=Math.random()*1-0.5;
+    this.vy=Math.random()*1-0.5;
+    this.pushX = 0;
+    this.pushY = 0;
+    this.friction = 0.95;
   }
 
   draw(context){
@@ -41,16 +46,28 @@ update(){
   
   if(distance < this.effect.mouse.radius){
     const angle= Math.atan2(dy,dx);
-    this.x += Math.cos(angle) * 8;
-    this.y += Math.sin(angle) * 8;
+    this.pushX += Math.cos(angle) * force;
+    this.pushY += Math.sin(angle) * force;
   }
 
+  this.x += (this.pushX *= this.friction) + this.vx;
+  this.y += (this.pushY *= this.friction) + this.vy;
 
-  this.x +=this.vx
-  if(this.x> this.effect.width - this.radius ||this.x < this.radius) this.vx *=-1;
 
-  this.y +=this.vy;
-  if(this.y> this.effect.height - this.radius ||this.y < this.radius) this.vy *=-1;
+  if (this.x < this.radius){
+    this.x = this.radius;
+    this.vx *= -1;
+} else if (this.x > this.effect.width - this.radius){
+    this.x = this.effect.width - this.radius;
+    this.vx *= -1;
+}
+if (this.y < this.radius){
+    this.y = this.radius;
+    this.vy *= -1;
+} else if (this.y > this.effect.height - this.radius){
+    this.y = this.effect.height - this.radius;
+    this.vy *= -1;
+}
 }
 
 }
@@ -63,14 +80,14 @@ class Effect{
     this.width=this.canvas.width;
     this.height=this.canvas.height;
     this.particles=[];
-    this.numberOfParticles=120;
+    this.numberOfParticles=180;
     this.createParticles();
 
     this.mouse={
       x:0,
       y:0,
       pressed:false,
-      radius:150
+      radius:100
     }
     window.addEventListener("mousemove",e=>{
 
@@ -104,7 +121,7 @@ class Effect{
   }
 
   connectParticles(context){
-    const maxDistance= 180;
+    const maxDistance= 140;
     for (let a = 0; a < this.particles.length; a++) {
      for(let b=a; b <this.particles.length; b++){
       //get two particles distance on their axis
@@ -154,15 +171,24 @@ animate()
 
       </canvas>
 
-      <article className={`glass w-[700px] h-[400px] rounded shadow-xl z-30   `}>
+      <article className={`glass w-[700px]  rounded shadow-xl z-30 flex flex-col justify-center items-center `}>
 
-        <figure id="image-wrapper" className='rounded-full relative w-[50px] h-[50px]'>
-        <Image src="/formal-image.png" fill={true}></Image>
+        <figure id="image-wrapper" className='rounded-full relative w-[150px] h-[150px] overflow-hidden m-4'>
+        <Image src="/Katsikadakos_thomas.jpeg" fill={true}></Image>
         </figure>
 
-    
-<h1 className='text-3xl font-bold text-center'>Hi, I am Katsikadakos Thomas</h1>
-<p className='text-slate-200 font-medium text-center' >I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
+    <div className='p-5'>
+    <h1 className='text-3xl font-bold text-center mb-2 '>Hi, my name is<span className='text-cyan-400'> Katsikadakos Thomas</span></h1>
+   
+<p className='text-slate-200 font-medium text-center' >I am a motivated software developer with 2 years of full stack
+experience in making web applications mainly with Next.js. Committed to delivering high-quality, scalable
+solutions that meet client requirements.</p>
+    </div>
+    <Typewriter></Typewriter>
+
+    <Socials color={"white"} hover={"opacity-70"}></Socials>
+
+     
       </article>
     </main>
   )
