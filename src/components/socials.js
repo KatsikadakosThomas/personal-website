@@ -6,7 +6,7 @@ export default function Socials({ openModal, opened, color,hover }) {
 
     <div className="flex mb-6">
       <a id="tiktok" href="https://www.tiktok.com/@technaturegr?lang=en" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[40px] xs:w-[50px] h-[40px] xs:h-[50px]  hover:opacity-70`} >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_43)" className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -19,7 +19,7 @@ export default function Socials({ openModal, opened, color,hover }) {
 
 
       <a id="instagram" href="https://www.instagram.com/technaturegr/?fbclid=IwAR2JYaxZdqr9yvPTU_3X3-3_cGWdBh3LSZPsV6vF146K5wur9yK6PuE7-uI" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[40px] xs:w-[50px] h-[40px] xs:h-[50px]  hover:opacity-70`} >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_460)" className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -32,7 +32,7 @@ export default function Socials({ openModal, opened, color,hover }) {
 
 
       <a id="facebook" href="https://www.facebook.com/technaturegr" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[40px] xs:w-[50px] h-[40px] xs:h-[50px]  hover:opacity-70`} >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_43)" className={`fill-white`}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -43,7 +43,7 @@ export default function Socials({ openModal, opened, color,hover }) {
       </a>
 
       <a id="linkedin" href="https://www.linkedin.com/company/technature-ike/mycompany/" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[40px] xs:w-[50px] h-[40px] xs:h-[50px]  hover:opacity-70`}>
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`}>
           <g clip-path="url(#clip0_201_575)"  className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />

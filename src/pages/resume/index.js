@@ -1,16 +1,13 @@
-import Image from 'next/image'
+import ResumeContainer from "@/components/resumeContainer";
+import { Effect } from "../../../particleEffect";
 import { Inter } from 'next/font/google'
 import { useEffect } from 'react'
-import Socials from '@/components/socials'
-import Typewriter from "@/components/typewriter"
-import {Effect,Particle} from "../../particleEffect"
-import MainContainer from '@/components/mainContainer'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-
-
+function Resume() {
+   
+   
   useEffect(() => {
 
     
@@ -40,6 +37,7 @@ function animate(){
 animate()
   }, []);
 
+
   
   return (
     <main
@@ -47,10 +45,12 @@ animate()
     >
   
       <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full h-full top-0 left-0 absolute'>
-
+ 
       </canvas>
-
-<MainContainer></MainContainer>
+      <ResumeContainer></ResumeContainer>
     </main>
   )
+    
 }
+
+export default Resume;

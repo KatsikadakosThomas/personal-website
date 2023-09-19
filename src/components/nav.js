@@ -10,7 +10,7 @@ export default function nav(){
                 </div>
             <div className="m-2">
                 <span className="text-cyan-500">02. </span>
-                <Link href="\">RESUME</Link>
+                <Link href="\resume">RESUME</Link>
                 </div>
             <div className="m-2">
                 <span className="text-cyan-500">03. </span>

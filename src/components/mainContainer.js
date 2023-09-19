@@ -9,18 +9,18 @@ export default function MainContainer(){
 
 
     useEffect(()=>{
-setState(true)
+    setState(true)
     },[])
 
     return(
-        <article className={`glass w-[700px]  rounded shadow-xl z-30 flex flex-col justify-center items-center  ${state ? "show" : "hidden"} `}>
+        <article className={`glass max-w-[90%] md:max-w-[60%] lg:max-w-[40%] mt-20  rounded shadow-xl z-30 flex flex-col justify-center items-center  ${state ? "show" : "noshow"} `}>
 
-        <figure id="image-wrapper" className='rounded-full relative w-[150px] h-[150px] overflow-hidden m-4'>
+        <figure id="image-wrapper" className='rounded-full relative w-[120px] lg:w-[150px] h-[120px] lg:h-[150px] overflow-hidden mt-4'>
         <Image src="/Katsikadakos_thomas.jpeg" fill={true}></Image>
         </figure>
 
     <div className='p-5'>
-    <h1 className='text-3xl font-bold text-center mb-2 '>Hi, my name is<span className='text-cyan-400'> Katsikadakos Thomas</span></h1>
+    <h1 className='text-xl md:text-3xl font-bold text-center mb-2 '>Hi, my name is<span className='text-cyan-400'> Katsikadakos Thomas</span></h1>
    
 <p className='text-slate-200 font-medium text-center' >I am a motivated software developer with 2 years of full stack
 experience in making web applications mainly with Next.js. Committed to delivering high-quality, scalable

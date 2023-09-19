@@ -25,14 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+/* 
 #canvas1{
   width:100vw;
   height:100vh;
   top:0;
   left:0;
   position: absolute;
-}
+} */
 
 .glass{
   /* From https://css.glass */
@@ -43,16 +43,16 @@ border: 1px solid rgba(1, 29, 19, 0.3);
 }
 
 
-.hidden{
+.noshow{
 opacity:0;
 filter:blur(5px);
-transform:translateX(-100%);
-transition: all 3s;
+transform:translateY(-100%);
+transition: all 2s;
 }
 
 .show{
   opacity:1;
   filter:blur(0);
-  transform:translateX(0);
-  transition: all 3s;
+  transform:translateY(0);
+  transition: all 2s;
 }
