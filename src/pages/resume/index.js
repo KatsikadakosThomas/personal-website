@@ -24,7 +24,7 @@ function Resume() {
 
 
 
-const effect=new Effect(canvas)
+const effect=new Effect(canvas,ctx,window)
 
 // effect.handleParticles(ctx);
 

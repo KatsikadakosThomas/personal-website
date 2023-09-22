@@ -27,7 +27,7 @@ export default function Home() {
 
 
 
-const effect=new Effect(canvas)
+const effect=new Effect(canvas,ctx,window)
 
 // effect.handleParticles(ctx);
 

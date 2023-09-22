@@ -2,14 +2,18 @@
 export class Effect{
 
 
-    constructor(canvas){
+    constructor(canvas,context,window){
       this.canvas=canvas;
+      this.context=context;
       this.width=this.canvas.width;
       this.height=this.canvas.height;
       this.particles=[];
-      this.numberOfParticles=180;
+      this.numberOfParticles=window.innerWidth<1024?
+      window.innerWidth<600?50:90
+      :
+      180;
       this.createParticles();
-  
+
       this.mouse={
         x:0,
         y:0,
@@ -23,12 +27,11 @@ export class Effect{
   
   
       })
-      window.addEventListener("mousedown",e=>{
-  
-      })
-      window.addEventListener("mouseup",e=>{
+      window.addEventListener("resize",e=>{
     
+        this.resize(e.target.window.innerWidth,e.target.window.innerHeight)
       })
+ 
     }
   
     createParticles(){
@@ -36,6 +39,16 @@ export class Effect{
         this.particles.push(new Particle(this));
         
       }
+    }
+
+    resize(width,height){
+      this.canvas.width=width;
+      this.canvas.height=height;
+      this.width=width;
+      this.height=height;
+      this.context.fillStyle="white";
+      this.context.strokeStyle="white";
+
     }
   
     handleParticles(context){

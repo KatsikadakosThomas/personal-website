@@ -3,6 +3,7 @@ import { useEffect,useState } from 'react'
 import Socials from '@/components/socials'
 import Typewriter from "@/components/typewriter"
 import Image from 'next/image'
+import Burger from './burger'
 
 export default function MainContainer(){
     const [state, setState] = useState(false);
@@ -27,7 +28,6 @@ experience in making web applications mainly with Next.js. Committed to deliveri
 solutions that meet client requirements.</p>
     </div>
     <Typewriter></Typewriter>
-
     <Socials color={"white"} hover={"opacity-70"}></Socials>
 
      
