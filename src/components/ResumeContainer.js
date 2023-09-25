@@ -23,7 +23,7 @@ export default function ResumeContainer() {
            
                     <h1 className=' text-2xl lg:text-3xl font-bold mb-4'>Education</h1>
 
-                       {resumeData.education.map((entry),idx=>{
+                       {resumeData.education.map((entry,idx)=>{
                         return   <ResumeEntries key={idx} data={entry} />
                        })}
                       
