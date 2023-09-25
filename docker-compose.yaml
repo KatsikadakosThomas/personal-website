@@ -1,0 +1,24 @@
+
+version: "3.8"
+services:
+
+
+
+  frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: party-client
+    healthcheck:
+      test: CMD curl -f --retry 6 --max-time 5 --retry-delay 10 --retry-max-time 60 "http://localhost:3600" || bash -c 'kill -s 15 -1 && (sleep 10; kill -s 9 -1)'
+      interval: 5m
+      timeout: 2m
+      start_period: 45s 
+   
+    container_name: front-end-pw
+    restart: always
+    ports:
+      - "3600:3600"
+
+volumes:
+  data: 
