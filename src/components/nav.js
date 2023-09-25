@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function nav(){
+export default function Nav(){
 
     return(
         <nav className="absolute left-0 top-0 z-[200] h-20 w-full glass shadow font-bold flex flex-row justify-center items-center">

@@ -23,8 +23,8 @@ export default function ResumeContainer() {
            
                     <h1 className=' text-2xl lg:text-3xl font-bold mb-4'>Education</h1>
 
-                       {resumeData.education.map((item)=>{
-                        return   <ResumeEntries data={item} />
+                       {resumeData.education.map((item),idx=>{
+                        return   <ResumeEntries key={idx} data={item} />
                        })}
                       
 
@@ -35,8 +35,8 @@ export default function ResumeContainer() {
 
                 <h1 className=' text-2xl lg:text-3xl font-bold mb-4'>Work Experience</h1>
 
-                {resumeData.workExp.map((item)=>{
-                        return   <ResumeEntries data={item} />
+                {resumeData.workExp.map((item,idx)=>{
+                        return   <ResumeEntries key={idx} data={item} />
                        })}
 
               

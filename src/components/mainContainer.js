@@ -1,7 +1,7 @@
 "use client"
 import { useEffect,useState } from 'react'
 import Socials from '@/components/socials'
-import Typewriter from "@/components/typewriter"
+import Typewriter from "@/components/Typewriter"
 import Image from 'next/image'
 import Burger from './burger'
 
@@ -17,7 +17,7 @@ export default function MainContainer(){
         <article className={`glass max-w-[90%] md:max-w-[60%] lg:max-w-[40%] mt-20  rounded shadow-xl z-30 flex flex-col justify-center items-center  ${state ? "show" : "noshow"} rounded-2xl  `}>
 
         <figure id="image-wrapper" className='rounded-full relative w-[120px] lg:w-[150px] h-[120px] lg:h-[150px] overflow-hidden mt-4'>
-        <Image src="/Katsikadakos_thomas.jpeg" fill={true}></Image>
+        <Image src="/Katsikadakos_thomas.jpeg" lat="thomas katsikadakos pic" fill={true}></Image>
         </figure>
 
     <div className='p-5'>

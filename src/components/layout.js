@@ -1,4 +1,4 @@
-import Nav from "@/components/nav"
+import Nav from "@/components/Nav"
 import { Fragment } from "react"
 
 export default function Layout({children}){

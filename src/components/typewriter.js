@@ -1,7 +1,8 @@
 
 "use client"
 import {useEffect} from "react"
-export default function typewriter(){
+
+export default function Typewriter(){
 
      useEffect(() => {
         var words = [' Javascript', ' Next.js', ' React', ' Mongodb', ' Docker',"Git","Node.js","Redux", "Tailwind","Mysql", "Express.js","Material-UI","Nginx"];

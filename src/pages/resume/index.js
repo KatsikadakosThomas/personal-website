@@ -1,4 +1,4 @@
-import ResumeContainer from "@/components/resumeContainer";
+import ResumeContainer from "@/components/ResumeContainer";
 import { Effect } from "../../../particleEffect";
 import { Inter } from 'next/font/google'
 import { useEffect } from 'react'
