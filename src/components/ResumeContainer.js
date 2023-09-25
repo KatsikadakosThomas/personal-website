@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState, Fragment } from 'react'
 import resumeData from '../../data/resumeData';
-import ResumeEntries from './resumeEntries';
+import ResumeEntries from './ResumeEntries';
 
 
 export default function ResumeContainer() {

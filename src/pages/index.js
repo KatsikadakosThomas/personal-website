@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import Socials from '@/components/socials'
 import Typewriter from "@/components/typewriter"
 import {Effect,Particle} from "../../particleEffect"
-import MainContainer from '@/components/mainContainer'
+import MainContainer from '@/components/MainContainer'
 
 const inter = Inter({ subsets: ['latin'] })
 
