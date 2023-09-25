@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { useEffect } from 'react'
-import Socials from '@/components/socials'
-import Typewriter from "@/components/typewriter"
+import Socials from '@/components/Socials'
+import Typewriter from "@/components/Typewriter"
 import {Effect,Particle} from "../../particleEffect"
 import MainContainer from '@/components/MainContainer'
 
