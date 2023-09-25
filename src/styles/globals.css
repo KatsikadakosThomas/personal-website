@@ -36,7 +36,6 @@ body {
 
 .glass{
   /* From https://css.glass */
-border-radius: 16px;
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(1, 29, 19, 0.3);

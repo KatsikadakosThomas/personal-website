@@ -10,15 +10,18 @@ function Resume() {
    
   useEffect(() => {
 
-    
+    var parent = document.getElementById("main");
     const canvas=document.getElementById("canvas1");
     const ctx=canvas.getContext("2d");
 
-    canvas.width=window.innerWidth;
-    canvas.height=window.innerHeight;
+    canvas.width = parent.offsetWidth;
+canvas.height = parent.offsetHeight;
+console.log(parent.offsetHeight)
+    // canvas.width=window.innerWidth;
+    // canvas.height=window.innerHeight;
     ctx.fillStyle="white";
     ctx.strokeStyle="white";
-    console.log(window.innerWidth)
+
 
 
 
@@ -41,10 +44,11 @@ animate()
   
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-center ${inter.className} `}
+    id="main"
+      className={`flex h-full flex-col items-center justify-center ${inter.className} `}
     >
   
-      <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full h-full top-0 left-0 absolute'>
+      <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full top-0 left-0 absolute'>
  
       </canvas>
       <ResumeContainer></ResumeContainer>
