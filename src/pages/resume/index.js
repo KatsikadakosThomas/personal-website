@@ -45,7 +45,7 @@ animate()
   return (
     <main
     id="main"
-      className={`flex min-h-screen flex-col items-center justify-center ${inter.className} `}
+      className={`flex min-h-screen flex-col items-center justify-center ${inter.className}  `}
     >
   
       <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full top-0 left-0 absolute'>

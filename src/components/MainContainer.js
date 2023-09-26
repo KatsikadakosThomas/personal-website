@@ -3,7 +3,7 @@ import { useEffect,useState } from 'react'
 import Socials from '@/components/Socials'
 import Typewriter from "@/components/Typewriter"
 import Image from 'next/image'
-import Burger from './burger'
+import Burger from './Burger'
 
 export default function MainContainer(){
     const [state, setState] = useState(false);

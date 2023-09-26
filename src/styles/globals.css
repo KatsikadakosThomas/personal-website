@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,7 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 /* 
 #canvas1{
   width:100vw;
@@ -33,6 +33,13 @@ body {
   left:0;
   position: absolute;
 } */
+
+
+.scrollLock{
+  overflow-y: hidden;
+  touch-action: none;
+}
+
 
 .glass{
   /* From https://css.glass */
@@ -70,12 +77,8 @@ span.menu {
 }
 
 .burgerWrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -20px 0 0 -65px; 
-  width: 130px;
-  height: 40px;
+  /* width: 130px;
+  height: 40px; */
 }
 
 .burgerWrapper input {
