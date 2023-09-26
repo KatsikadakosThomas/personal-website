@@ -1,7 +1,8 @@
+
 import Link from "next/link"
 import Burger from  "../components/Burger"
 
-export default function Nav(){
+export default function Nav( {openModal,opened}){
 
     return(
         <nav className="absolute left-0 top-0 z-[200] h-[50px] sm:h-20 w-full glass shadow font-bold flex flex-row justify-end sm:justify-center items-center">
@@ -18,8 +19,8 @@ export default function Nav(){
                 <Link className="text-white" href="/">ABOUT</Link>
                 </div>
 
-                <div className="block sm:hidden mr-10">
-                <Burger></Burger>
+                <div className="block sm:hidden mr-10" >
+                <Burger openModal={openModal} opened={opened}></Burger>
                 </div>
          
         </nav>

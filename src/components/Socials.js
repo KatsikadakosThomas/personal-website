@@ -4,9 +4,9 @@ export default function Socials({ openModal, opened, color,hover }) {
 
   return (
 
-    <div className="flex mb-6">
-      <a id="tiktok" href="https://www.tiktok.com/@technaturegr?lang=en" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
+    <div className="flex flex-col xxs:flex-row mb-6">
+      {/* <a id="tiktok" href="https://www.tiktok.com/@technaturegr?lang=en" target="_blank" rel="noopener noreferrer" >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[40px] h-[35px] xs:h-[40px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_43)" className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -14,12 +14,12 @@ export default function Socials({ openModal, opened, color,hover }) {
           </g>
 
         </svg>
-      </a>
+      </a> */}
 
 
 
-      <a id="instagram" href="https://www.instagram.com/technaturegr/?fbclid=IwAR2JYaxZdqr9yvPTU_3X3-3_cGWdBh3LSZPsV6vF146K5wur9yK6PuE7-uI" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
+      {/* <a id="instagram" href="https://www.instagram.com/technaturegr/?fbclid=IwAR2JYaxZdqr9yvPTU_3X3-3_cGWdBh3LSZPsV6vF146K5wur9yK6PuE7-uI" target="_blank" rel="noopener noreferrer" className='xxs:ml-4 mt-5 xxs:mt-0' >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[40px] h-[35px] xs:h-[40px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_460)" className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -27,12 +27,16 @@ export default function Socials({ openModal, opened, color,hover }) {
           </g>
 
         </svg>
-      </a>
+      </a> */}
 
+<a id="github" href="https://github.com/KatsikadakosThomas" target="_blank" rel="noopener noreferrer" className='xxs:ml-4 mt-5 xxs:mt-0' >
+<svg viewBox="0 0 512 512" className={`w-[35px] xs:w-[40px] h-[35px] xs:h-[40px]  hover:opacity-70`}>
+  <g className={`fill-white`}><path clip-rule="evenodd" d="M296.133,354.174c49.885-5.891,102.942-24.029,102.942-110.192   c0-24.49-8.624-44.448-22.67-59.869c2.266-5.89,9.515-28.114-2.734-58.947c0,0-18.139-5.898-60.759,22.669   c-18.139-4.983-38.09-8.163-56.682-8.163c-19.053,0-39.011,3.18-56.697,8.163c-43.082-28.567-61.22-22.669-61.22-22.669   c-12.241,30.833-4.983,53.057-2.718,58.947c-14.061,15.42-22.677,35.379-22.677,59.869c0,86.163,53.057,104.301,102.942,110.192   c-6.344,5.452-12.241,15.873-14.507,30.387c-12.702,5.438-45.808,15.873-65.758-18.592c0,0-11.795-21.31-34.012-22.669   c0,0-22.224-0.453-1.813,13.592c0,0,14.96,6.812,24.943,32.653c0,0,13.6,43.089,76.179,29.48v38.543   c0,5.906-4.53,12.702-15.865,10.89C96.139,438.977,32.2,354.626,32.2,255.77c0-123.807,100.216-224.022,224.03-224.022   c123.347,0,224.023,100.216,223.57,224.022c0,98.856-63.946,182.754-152.828,212.688c-11.342,2.266-15.873-4.53-15.873-10.89   V395.45C311.1,374.577,304.288,360.985,296.133,354.174L296.133,354.174z M512,256.23C512,114.73,397.263,0,256.23,0   C114.73,0,0,114.73,0,256.23C0,397.263,114.73,512,256.23,512C397.263,512,512,397.263,512,256.23L512,256.23z" fill="white" /></g>
+  </svg>
+  </a>
 
-
-      <a id="facebook" href="https://www.facebook.com/technaturegr" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`} >
+      <a id="facebook" href="https://www.facebook.com/cowardly.intrepid" target="_blank" rel="noopener noreferrer" className='xxs:ml-4 mt-5 xxs:mt-0' >
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[40px] h-[35px] xs:h-[40px]  hover:opacity-70`} >
           <g clip-path="url(#clip0_201_43)" className={`fill-white`}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
@@ -42,8 +46,8 @@ export default function Socials({ openModal, opened, color,hover }) {
         </svg>
       </a>
 
-      <a id="linkedin" href="https://www.linkedin.com/company/technature-ike/mycompany/" target="_blank" rel="noopener noreferrer" className='ml-4'>
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[50px] h-[35px] xs:h-[50px]  hover:opacity-70`}>
+      <a id="linkedin" href="https://www.linkedin.com/in/tkatsika/" target="_blank" rel="noopener noreferrer" className='xxs:ml-4 mt-5 xxs:mt-0' >
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-[35px] xs:w-[40px] h-[35px] xs:h-[40px]  hover:opacity-70`}>
           <g clip-path="url(#clip0_201_575)"  className={`fill-white `}>
             <rect width="36" height="36" fill="none" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18 34.5C27.1127 34.5 34.5 27.1127 34.5 18C34.5 8.8873 27.1127 1.5 18 1.5C8.8873 1.5 1.5 8.8873 1.5 18C1.5 27.1127 8.8873 34.5 18 34.5ZM18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36Z" />
