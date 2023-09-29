@@ -27,7 +27,7 @@ class FancyButton extends React.Component {
 		return (
 			<div className="fancy-button mb-5"
 				style={buttonStyle}
-				ref="fancyButton">
+				ref={(ref)=>this.FancyButton=ref}>
 				<div className="fancy-flipper">
 					<div className="fancy-front" style={fancyFrontStyle}>
 						<svg

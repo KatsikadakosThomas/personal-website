@@ -38,12 +38,12 @@ function ContactContainer() {
             <div className='p-5 w-full sm:w-2/3'>
      
 
-                <p className='text-slate-200 font-medium' >Looking to collaborate with a skilled software developer? I'm eager to explore new opportunities and bring my expertise to your team.</p>
+                <p className='text-slate-200 font-medium' >Looking to collaborate with a skilled software developer? I&apos;m eager to explore new opportunities and bring my expertise to your team.</p>
                 <br/>
-                <p className='text-slate-200 font-medium' >Whether you're seeking a dedicated developer for your organization or have exciting projects in need of talent, I'd love to hear from you.</p>
+                <p className='text-slate-200 font-medium' >Whether you&apos;re seeking a dedicated developer for your organization or have exciting projects in need of talent, I&apos;d love to hear from you.</p>
                 <br/>
                 <p className='text-slate-200 font-medium' > Please feel
-                    free to reach out via email or connect with me on professional networks. Let's discuss how I can contribute to your team and help you achieve your software development goals.</p>
+                    free to reach out via email or connect with me on professional networks. Let&apos;s discuss how I can contribute to your team and help you achieve your software development goals.</p>
             </div>
 
 
