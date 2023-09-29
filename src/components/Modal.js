@@ -10,6 +10,7 @@ const links = [
   // { href: "/agency", name: "Agency" },
   { href: "/resume", name: "Resume" },
   { href: "/about", name: "About" },
+  { href: "/contact", name: "Contact" },
 //   { href: "/contact", name: "Contact" }
 ]
 
