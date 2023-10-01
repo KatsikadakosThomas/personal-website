@@ -20,7 +20,7 @@ function ContactContainer() {
     }, [])
 
     return (
-        <article className={`glass max-w-[90%] md:max-w-[70%] lg:max-w-[60%] p-5 mt-[70px] h-[80vh] sm:h-full overflow-auto rounded shadow-xl z-30 flex flex-col md:flex-row  items-center  ${state ? "show" : "noshow"} rounded-2xl ${inter.className} `}>
+        <article className={`glass max-w-[90%] md:max-w-[70%] lg:max-w-[60%] p-5 mt-[70px] max-h-[70vh] sm:h-full overflow-auto rounded shadow-xl z-30 flex flex-col md:flex-row  items-center  ${state ? "show" : "noshow"} rounded-2xl ${inter.className} `}>
 
             <div className="min-w-[230px] w-1/3 h-full m-5">
             <h1 className='text-3xl font-bold mb-2 text-white  '><span className='text-cyan-400 '> Contact </span>me</h1>

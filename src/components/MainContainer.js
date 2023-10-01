@@ -21,9 +21,9 @@ export default function MainContainer(){
         </figure>
 
     <div className='p-5'>
-    <h1 className='text-xl md:text-3xl font-bold text-center mb-2 text-white '>Hi, my name is<span className='text-cyan-400'> Katsikadakos Thomas</span></h1>
+    <h1 className='text-xl md:text-2xl font-bold text-center mb-2 text-white '>Hi, my name is<span className='text-cyan-400'> Katsikadakos Thomas</span></h1>
    
-<p className='text-slate-200 font-medium text-center' >I am a motivated software developer with 2 years of full stack
+<p className='text-slate-200 text-sm text-center' >I am a motivated software developer with 2 years of full stack
 experience in making web applications mainly with Next.js. Committed to delivering high-quality, scalable
 solutions that meet client requirements.</p>
     </div>

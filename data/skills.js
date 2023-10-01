@@ -1,0 +1,74 @@
+
+const skills=[
+    {
+        name:"javascirpt",
+        path:"/js.svg"
+    },
+    {
+        name:"React.js",
+        path:"/react.svg"
+    },
+    {
+        name:"Next.js",
+        path:"/nextLogo.svg"
+    },
+    {
+        name:"Node.js",
+        path:"/node.svg"
+    },
+    {
+        name:"Express",
+        path:"/express.svg"
+    },
+    {
+        name:"Mysql",
+        path:"/mysql.svg"
+    },
+    {
+        name:"Mongodb",
+        path:"/mongo.svg"
+    },
+    {
+        name:"Html",
+        path:"/html5.svg"
+    },
+    {
+        name:"css",
+        path:"/css.svg"
+    },
+    {
+        name:"git",
+        path:"/git.svg"
+    },
+    {
+        name:"Docker",
+        path:"/docker.svg"
+    },
+    {
+        name:"Tailwind",
+        path:"/tailwind.svg"
+    },
+    {
+        name:"Redux",
+        path:"/redux.svg"
+    },
+    {
+        name:"Nginx",
+        path:"/nginx.svg"
+    },
+    {
+        name:"Bootstrap",
+        path:"/bootstrap.svg"
+    },
+    {
+        name:"Material Ui",
+        path:"/materialUi.svg"
+    },
+    {
+        name:"Figma",
+        path:"/figma.svg"
+    }
+]
+
+
+export default skills;

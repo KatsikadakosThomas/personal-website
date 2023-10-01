@@ -43,7 +43,7 @@ function Canvas() {
 
     return ( 
 
-        <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full top-0 left-0 absolute'>
+        <canvas id="canvas1" className='bg-[#051c2b] z-0 w-full top-0 left-0 absolute '>
  
         </canvas>
      );
