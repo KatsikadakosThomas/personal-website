@@ -38,7 +38,7 @@ function ContactContainer() {
             <div className='p-5 w-full sm:w-2/3'>
      
 
-                <p className='text-slate-200 font-medium' >Looking to collaborate with a skilled software developer? I&apos;m eager to explore new opportunities and bring my expertise to your team.</p>
+                <p className='text-slate-200 font-medium' >Are you looking to collaborate with a skilled software developer? I&apos;m eager to explore new opportunities and contribute my expertise to your team.</p>
                 <br/>
                 <p className='text-slate-200 font-medium' >Whether you&apos;re seeking a dedicated developer for your organization or have exciting projects in need of talent, I&apos;d love to hear from you.</p>
                 <br/>

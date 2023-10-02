@@ -67,6 +67,22 @@ const skills=[
     {
         name:"Figma",
         path:"/figma.svg"
+    },
+    {
+        name:"Photoshop",
+        path:"/photoshop.svg"
+    },
+    {
+        name:"Premiere",
+        path:"/premiere.svg"
+    },
+    {
+        name:"After effects",
+        path:"/afterEffects.svg"
+    },
+    {
+        name:"Davinci resolve",
+        path:"/davinci.svg"
     }
 ]
 

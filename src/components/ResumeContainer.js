@@ -21,7 +21,7 @@ export default function ResumeContainer() {
              
                 <div className=' m-10 lg:w-1/2'>
            
-                    <h1 className=' text-2xl lg:text-3xl font-bold mb-4 text-white'>Education</h1>
+                    <h1 className=' text-xl lg:text-2xl font-bold mb-4 text-white'>Education</h1>
 
                        {resumeData.education.map((entry,idx)=>{
                         return   <ResumeEntries key={idx} data={entry} />
@@ -33,7 +33,7 @@ export default function ResumeContainer() {
 
                 <div className=' m-10 lg:w-1/2'>
 
-                <h1 className=' text-2xl lg:text-3xl font-bold mb-4 text-white'>Work Experience</h1>
+                <h1 className=' text-xl lg:text-2xl font-bold mb-4 text-white'>Work Experience</h1>
 
                 {resumeData.workExp.map((workEntry,idx)=>{
                         return   <ResumeEntries key={idx} data={workEntry} />
