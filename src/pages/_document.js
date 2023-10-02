@@ -9,8 +9,8 @@ export default function Document() {
         "@context": "http://schema.org",
         "@type": "Person",
         "name": "Thomas Katsikadakos",
-        "url": "https://www.tomkatsi.com",
-        "image": "https://www.tomkatsi.com/Katsikadakos_thomas.jpeg",
+        "url": "https://tomkatsi.com",
+        "image": "https://tomkatsi.com/Katsikadakos_thomas.jpeg",
         "jobTitle": "Software Developer",
         "description": "I am a motivated software developer with 2 years of full stack experience in making web applications mainly with the MERN stack",
         "email": "tkatsika@gmail.com",
@@ -39,7 +39,7 @@ export default function Document() {
       <title>Thomas Katsikadakos</title>
 				<meta name="description" content="A portfolio website for Thomas katsikadakos"></meta>
 				<meta property="og:title" content={"Thomas Katsikadakos"} key="title" />
-				<meta property="og:image" content={"https://www.tomkatsi.com/Katsikadakos_thomas.jpeg"} />
+				<meta property="og:image" content={"https://tomkatsi.com/Katsikadakos_thomas.jpeg"} />
 				<meta property="og:type" content="website " />
 				<meta property="og:url" content={"https://tomkatsi.com"} />
 
@@ -49,7 +49,7 @@ export default function Document() {
 				<meta property="twitter:url" content={"https://tomkatsi.com"} />
 				<meta name="twitter:title" content={"Thomas Katsikadakos"} />
 				<meta name="twitter:description" content={"A portfolio website for Thomas katsikadakos"} />
-				<meta name="twitter:image" content={"https://www.tomkatsi.com/Katsikadakos_thomas.jpeg"}></meta>
+				<meta name="twitter:image" content={"https://tomkatsi.com/Katsikadakos_thomas.jpeg"}></meta>
         
 
         <script
