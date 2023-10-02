@@ -19,7 +19,7 @@ function AboutContainer() {
     }, [])
 
     return (
-<article className={`glass max-w-[90%] md:max-w-[70%] lg:max-w-[60%] p-5 my-[auto] h-[70vh] overflow-auto rounded shadow-xl z-30 flex flex-col  items-center  ${state ? "show" : "noshow"} rounded-2xl ${inter.className} `}>
+<article className={`glass max-w-[90%] md:max-w-[70%] lg:max-w-[60%] p-5 mt-[30px]  h-[65vh] overflow-auto rounded shadow-xl z-30 flex flex-col  items-center  ${state ? "show" : "noshow"} rounded-2xl ${inter.className} `}>
 <h1 className='text-3xl font-bold mb-2 text-white  '><span className='text-cyan-400 '> About </span>me</h1>
 <section>
             <div className='p-5 w-full'>
