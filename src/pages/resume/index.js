@@ -13,7 +13,7 @@ function Resume() {
   return (
     <main
     id="main"
-      className={`flex min-h-screen flex-col items-center justify-center ${inter.className}  `}
+      className={`flex min-h-screen flex-col items-center pt-[60px] ${inter.className}  `}
     >
 <Canvas></Canvas>
       <ResumeContainer></ResumeContainer>
