@@ -47,7 +47,7 @@ function AboutContainer() {
       including Vue, Angular, GoLang, and many others. Currently, I am gearing up for my next project, which will harness the capabilities of the powerful JavaScript framework, Angular.</p>
 
 <div className="flex flex-col sm:flex-row justify-center items-center mt-8 mb-5">
-  <p className='text-white text-xl text-xl'>Right now I am learning:</p>
+  <p className='text-white text-xl text-xl'>Currently learning:</p>
  <SkillBadge name={"Angular"} path={"/angular.svg"}></SkillBadge>
     
      </div>
