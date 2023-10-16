@@ -5,7 +5,7 @@ import { Effect } from "../../particleEffect";
 
 const inter = Inter({ subsets: ['latin'] })
 
-function Canvas() {
+function Canvas({config}) {
 
     useEffect(() => {
 
@@ -27,7 +27,7 @@ function Canvas() {
     
     
     
-    const effect=new Effect(canvas,ctx,window)
+    const effect=new Effect(canvas,ctx,window,config)
     
     // effect.handleParticles(ctx);
     

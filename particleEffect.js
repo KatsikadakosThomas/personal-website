@@ -2,13 +2,14 @@
 export class Effect{
 
 
-    constructor(canvas,context,window){
+    constructor(canvas,context,window,config){
       this.canvas=canvas;
       this.context=context;
+      this.config=config;
       this.width=this.canvas.width;
       this.height=this.canvas.height;
       this.particles=[];
-      this.numberOfParticles=window.innerWidth<1024?
+      this.numberOfParticles=config?.nop?config.nop:window.innerWidth<1024?
       window.innerWidth<600?50:90
       :
       180;
@@ -61,7 +62,8 @@ export class Effect{
     }
   
     connectParticles(context){
-      const maxDistance= 140;
+      // console.log(this.config)
+      const maxDistance=this.config?.maxDistance?this.config.maxDistance:140;
       for (let a = 0; a < this.particles.length; a++) {
        for(let b=a; b <this.particles.length; b++){
         //get two particles distance on their axis
