@@ -22,7 +22,7 @@ export default function Nav( {openModal,opened}){
                 <span className="text-cyan-500">04. </span>
                 <Link className="text-white" href="/contact">CONTACT</Link>
                 </div>
-                <Link href="/Tom_Katsikadakos_CV.pdf" download target="_blank" className="py-1 px-2 mx-5 border-2 border-cyan-400 text-cyan-400 font-bold inline-block  hover:bg-cyan-400 hover:text-white">Resume</Link>
+                <Link href="/Thomas_Katsikadakos_CV.pdf" download target="_blank" className="py-1 px-2 mx-5 border-2 border-cyan-400 text-cyan-400 font-bold inline-block  hover:bg-cyan-400 hover:text-white">Resume</Link>
 
                 <div className="block sm:hidden mr-10" >
                 <Burger openModal={openModal} opened={opened}></Burger>
