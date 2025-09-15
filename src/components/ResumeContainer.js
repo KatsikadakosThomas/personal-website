@@ -19,17 +19,7 @@ export default function ResumeContainer() {
             <h1 className='text-2xl lg:text-3xl font-extrabold mt-5 text-white'>RESUME</h1>
             <section className='flex flex-col lg:flex-row justify-center items-start'>
              
-                <div className=' m-10 lg:w-1/2'>
-           
-                    <h1 className=' text-xl lg:text-2xl font-bold mb-4 text-white'>Education</h1>
-
-                       {resumeData.education.map((entry,idx)=>{
-                        return   <ResumeEntries key={idx} data={entry} />
-                       })}
-                      
-
-               
-                </div>
+              
 
                 <div className=' m-10 lg:w-1/2'>
 
@@ -44,6 +34,18 @@ export default function ResumeContainer() {
                   
                   
                 </div>
+                  <div className=' m-10 lg:w-1/2'>
+           
+                    <h1 className=' text-xl lg:text-2xl font-bold mb-4 text-white'>Education</h1>
+
+                       {resumeData.education.map((entry,idx)=>{
+                        return   <ResumeEntries key={idx} data={entry} />
+                       })}
+                      
+
+
+
+               </div>
 
             </section>
 

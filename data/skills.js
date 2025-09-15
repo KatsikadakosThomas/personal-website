@@ -4,6 +4,14 @@ const skills=[
         name:"javascirpt",
         path:"/js.svg"
     },
+        {
+        name:"Python",
+        path:"/python.svg"
+    },
+        {
+        name:"Vue.js",
+        path:"/vue.svg"
+    },
     {
         name:"React.js",
         path:"/react.svg"
@@ -23,6 +31,10 @@ const skills=[
     {
         name:"Mysql",
         path:"/mysql.svg"
+    },
+        {
+        name:"Google Cloud",
+        path:"/gcp.svg"
     },
     {
         name:"Mongodb",

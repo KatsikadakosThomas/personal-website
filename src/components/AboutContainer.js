@@ -40,14 +40,15 @@ function AboutContainer() {
 <h1 className='text-3xl font-bold mb-2 text-white mt-4  '><span className='text-cyan-400 '> Skill</span>s</h1>
 <div className='p-5 w-full'>
      
-     <p className='text-slate-200 text-base' >Over the last two years, I have primarily focused on working with the MERN stack, during which I have successfully created and maintained numerous websites and platforms. 
-     Additionally, I gained experience in deploying websites within a Linux server environment using Docker and Nginx.</p>
+     <p className='text-slate-200 text-base' >Over the last four years, I have gained extensive experience in full-stack development. For the first three years, I primarily worked with Next.js,
+         building and maintaining numerous websites and platforms.
+         Over the past year, I have expanded my expertise to include Vue and Python actively working with them, while also rapidly deploying applications using AI-powered tools like Lovable in React and Next.js.
+          Additionally, I have experience deploying websites in Linux server environments using Docker and Nginx and the Google Cloud Platform.</p>
      <br/>
-     <p className='text-slate-200 text-base' >Now, I am eager to broaden my knowledge, embark on new experiments, and work on projects utilizing a wide range of technologies,
-      including Vue, Angular, GoLang, and many others. Currently, I am gearing up for my next project, which will harness the capabilities of the powerful JavaScript framework, Angular.</p>
+     <p className='text-slate-200 text-base' >Now, I am eager to further broaden my knowledge, explore new technologies with AI, and work on diverse projects involving frameworks and languages such as  Angular, and GoLang. I am currently preparing to embark on my next project, which will harness the capabilities of the powerful JavaScript framework, Angular.</p>
 
 <div className="flex flex-col sm:flex-row justify-center items-center mt-8 mb-5">
-  <p className='text-white text-xl text-xl'>Currently learning:</p>
+  <p className='text-white  text-xl'>Currently learning:</p>
  <SkillBadge name={"Angular"} path={"/angular.svg"}></SkillBadge>
     
      </div>

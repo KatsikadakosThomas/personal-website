@@ -5,7 +5,7 @@ import {useEffect} from "react"
 export default function Typewriter(){
 
      useEffect(() => {
-        var words = [' Javascript', ' Next.js', ' React', ' Mongodb', ' Docker',"Git","Node.js","Redux", "Tailwind","Mysql", "Express.js","Material-UI","Nginx"];
+        var words = [' Javascript','Python', ' Next.js', ' React', 'VUE', 'Mongodb', ' Docker',"Git","Node.js","Redux", "Tailwind","Mysql", "Express.js","Material-UI","Nginx"];
         var part;
         var i = 0;
         var offset = 0;
