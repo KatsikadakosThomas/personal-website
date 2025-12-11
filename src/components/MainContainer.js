@@ -14,7 +14,7 @@ export default function MainContainer(){
     },[])
 
     return(
-        <article className={`glass max-w-[90%] md:max-w-[60%] lg:max-w-[40%]   rounded shadow-xl z-30 flex flex-col justify-center items-center  ${state ? "show" : "noshow"} rounded-2xl  `}>
+        <article className={`glass max-w-[100%] md:max-w-[60%] lg:max-w-[40%]   rounded shadow-xl z-30 flex flex-col justify-center items-center  ${state ? "show" : "noshow"} rounded-2xl  `}>
 
         <figure id="image-wrapper" className='rounded-full relative w-[120px] lg:w-[150px] h-[120px] lg:h-[150px] overflow-hidden mt-4'>
         <Image src="/Katsikadakos_thomas.jpeg" alt="thomas katsikadakos pic" fill={true}></Image>

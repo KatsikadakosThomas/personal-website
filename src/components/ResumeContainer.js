@@ -14,7 +14,7 @@ export default function ResumeContainer() {
 
     return (
 
-        <article className={`glass max-w-[90%] md:max-w-[70%] lg:max-w-[100%] max-h-[70vh] lg:max-h-[85vh] mt-[30px]  overflow-auto rounded shadow-xl z-30 flex flex-col  items-center  ${state ? "show" : "noshow"}  sm:m-10 `}>
+        <article className={`glass max-w-[100%] md:max-w-[70%] lg:max-w-[100%] max-h-[70vh] lg:max-h-[85vh] mt-[30px]  overflow-auto rounded shadow-xl z-30 flex flex-col  items-center  ${state ? "show" : "noshow"}  sm:m-10 `}>
 
             <h1 className='text-2xl lg:text-3xl font-extrabold mt-5 text-white'>RESUME</h1>
             <section className='flex flex-col lg:flex-row justify-center items-start'>

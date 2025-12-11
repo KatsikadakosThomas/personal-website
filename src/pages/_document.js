@@ -36,7 +36,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head > 
-      <title>Thomas Katsikadakos</title>
 				<meta name="description" content="A portfolio website for Thomas katsikadakos"></meta>
 				<meta property="og:title" content={"Thomas Katsikadakos"} key="title" />
 				<meta property="og:image" content={"https://tomkatsi.com/Katsikadakos_thomas.jpeg"} />
